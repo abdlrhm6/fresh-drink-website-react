@@ -1,0 +1,127 @@
+.about-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 95%;
+margin: auto;
+}
+
+.about-container .image img{
+    width: 70%;
+}
+
+.boxes .box{
+   box-shadow: 1px 3px 10px 1px rgba(36, 36, 36, 0.083);
+   border-radius: 10px;
+   padding: 20px 50px 20px 120px;
+   width: 500px;
+   height: fit-content;
+   position: relative;
+   margin: 50px 0;
+}
+
+.boxes .box .btitle{
+    font-size: 20px;
+    color: var(--mc);
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+.boxes .box .read{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--mc);
+    font-weight: bold;
+    gap: 5px;
+    margin: 15px 0;
+    font-size: 14px;
+    cursor: pointer;
+    right:0;
+    width: 100px;
+    text-align: right;
+}
+.boxes .box .image{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.boxes .box .image img{
+    width: 200px;
+}
+
+.stats{
+    background-image: url('../assets/stats.png');
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-position: cover;
+    /* background-repeat: no-repeat; */
+}
+.stats .stat{
+    color: #fff;
+    min-width: 170px;
+    min-height: 170px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    flex-direction: column;
+    font-size: 21px;
+    display: flex;
+    
+    align-items: center;justify-content: center;
+}
+
+@media (max-width: 940px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-container .image{
+        margin: 0 auto;
+    }
+    .about-container .boxes .box p {
+        
+        text-align: left;
+    }
+    
+}
+
+@media (max-width: 640px) {
+ 
+    .about-container .boxes .box {
+        padding: 20px 50px 20px 50px;
+        width: 350px;
+        height: -moz-fit-content;
+        height: fit-content;
+        position: relative;
+        margin: 50px 0;
+    }
+
+    .about-container .boxes .box p {
+        font-size: 10px;
+        padding-left:30px ;
+        text-align: left;
+    }
+    .about-container .boxes .box .read{
+        padding:  0 30px;
+        width: 400px;
+        font-size: 16px;
+    }
+    .about-container .boxes .box .image img{
+        width: 130px;
+        left: 0;
+    }
+
+    
+}
+@media (max-width:440px){
+    .about-container .boxes .box {
+        padding: 10px 10px 10px 70px;
+    }
+    .about-container .boxes .box .image{
+        left: 40px;
+    }
+}

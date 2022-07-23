@@ -1,0 +1,95 @@
+.s-contact {
+    margin: 200px 0;
+    display: flex;
+    align-items: center;
+}
+
+.s-contact .image img{
+    width: 100%;
+    position: relative;
+    left: -70px;
+}
+
+.s-contact .form form {
+    width: 600px;
+    height: 100%;
+    display: block;
+    
+}
+.s-contact  form label{
+    display: block;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.s-contact  form .name,
+.s-contact  form .textarea,
+.s-contact  form .email{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(240, 239, 239);
+    padding: 15px 20px;
+    border-radius: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.s-contact  form input , 
+.s-contact  form textarea{
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    resize: none;
+}
+.s-contact  form input:focus,
+.s-contact  form textarea:focus{
+    
+    outline: none;
+}
+
+.s-contact  form input[type="submit"]{
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px 10px;
+        font-size: 20px;
+        background-color: var(--mc);
+        color: #fff;
+        border-radius: 70px;
+        cursor: pointer;
+}
+.s-s-contact  .form div{
+    position: relative;
+    margin: 20px 0;
+}
+.s-s-contact  .form div::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: var(--mc);
+    border-radius: 5px;
+    inset:  0;
+    top: 4px;
+    z-index: -3;
+}
+
+@media (max-width:1000px) {
+    .s-contact{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:880px) {
+    .s-contact .image{
+        display: none;
+    }
+}
+
+@media (max-width:680px) {
+    .s-contact .form form{
+        width: 320px;
+        height: 100%;
+    }
+}

@@ -1,0 +1,94 @@
+.blogs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.blogs .section1 img{
+width: 100%;
+cursor: pointer;
+}
+
+.blogs .section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    
+    
+}
+.blogs .section2 .section-image {
+    width: 30%;
+}
+.blogs .section2 .section-image img{
+    width: 100%;
+cursor: pointer;
+
+}
+.blog-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.blog{
+width: 400px;
+height: 300px;
+border-radius: 13px;
+display: flex;
+flex-direction: column;
+
+box-shadow: 0px -3px 20px 3px rgb(0 0 0 / 11%);
+overflow: hidden;
+}
+.blog .blog-image {
+   
+    width: 100%;
+    height: 164px;
+}
+.blog .blog-image img{
+    width: 100%;
+    height: 100%;
+    
+    
+} 
+
+.blog .text{
+    padding: 20px;
+}
+
+.blog .text p{
+    font-size: 12px;
+    margin:  5px 0;
+    opacity: .8;
+}
+.blog .text .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 10px;
+}
+.blog .text .links div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.blog .text .links div img{
+    width: 20px;
+}
+
+@media (max-width:440px) {
+    .blog{
+        width: 350px;
+        height: 350px;
+    }
+}
