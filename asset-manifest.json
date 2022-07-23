@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/fresh-drink-website-react/static/css/main.d3a2d13e.css",
+    "main.js": "/fresh-drink-website-react/static/js/main.fdc6a22e.js",
+    "static/media/blog4.jpg": "/fresh-drink-website-react/static/media/blog4.8b1acbec0fb186d7c444.jpg",
+    "static/media/blog2.png": "/fresh-drink-website-react/static/media/blog2.69e12596ba4d9f3186b6.png",
+    "static/media/stats.png": "/fresh-drink-website-react/static/media/stats.d0c0ad85147562dd248d.png",
+    "static/media/section1.png": "/fresh-drink-website-react/static/media/section1.b95cffe69338929d5fc8.png",
+    "static/media/about.png": "/fresh-drink-website-react/static/media/about.3dac53404c28c41d79ec.png",
+    "static/media/landing.png": "/fresh-drink-website-react/static/media/landing.b1314c7ef3a1a23981ea.png",
+    "static/media/contact.png": "/fresh-drink-website-react/static/media/contact.74cf2c17f92b675f5099.png",
+    "static/media/section2.png": "/fresh-drink-website-react/static/media/section2.cffded08aca86540b77d.png",
+    "static/media/item1.png": "/fresh-drink-website-react/static/media/item1.db60d64b5877bee2eaa8.png",
+    "static/media/box2.png": "/fresh-drink-website-react/static/media/box2.caee6d881695f7f988a1.png",
+    "static/media/box3.png": "/fresh-drink-website-react/static/media/box3.74988fa8c8fb981fb6d3.png",
+    "static/media/box1.png": "/fresh-drink-website-react/static/media/box1.c17d3d7e0f2bdb98998d.png",
+    "static/media/item4.png": "/fresh-drink-website-react/static/media/item4.8386bf504399ff8231b7.png",
+    "static/media/item6.png": "/fresh-drink-website-react/static/media/item6.835c02c22299f7c6a36f.png",
+    "static/media/item3.png": "/fresh-drink-website-react/static/media/item3.3aaa1bf4fef040e5d0d5.png",
+    "static/media/item2.png": "/fresh-drink-website-react/static/media/item2.67b5941912336dfd6d2a.png",
+    "static/media/item5.png": "/fresh-drink-website-react/static/media/item5.6b34204ae95e8ae60f89.png",
+    "static/media/blog1.jpg": "/fresh-drink-website-react/static/media/blog1.11db946e0a519169885b.jpg",
+    "static/media/blog3.jpg": "/fresh-drink-website-react/static/media/blog3.596e6684a94748bcc4bc.jpg",
+    "index.html": "/fresh-drink-website-react/index.html",
+    "main.d3a2d13e.css.map": "/fresh-drink-website-react/static/css/main.d3a2d13e.css.map",
+    "main.fdc6a22e.js.map": "/fresh-drink-website-react/static/js/main.fdc6a22e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3a2d13e.css",
+    "static/js/main.fdc6a22e.js"
+  ]
+}
