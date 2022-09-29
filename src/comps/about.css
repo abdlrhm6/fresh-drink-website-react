@@ -107,7 +107,7 @@ margin: auto;
     }
     .about-container .boxes .box .read{
         padding:  0 30px;
-        width: 400px;
+        width: 100%;
         font-size: 16px;
     }
     .about-container .boxes .box .image img{
