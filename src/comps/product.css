@@ -38,7 +38,7 @@ h1.price {
   top: 50%;
   right: -30%;
   width: 100px;
-  transform: translate(-50%, -50%);
+  transform: translate(-60%, -50%);
 }
 .product .additional {
   display: flex;
